@@ -12,7 +12,37 @@ const questions = [
         message: 'What is the title of your project?',
         name: 'title',
     },
-    {},{},{},
+    {
+        type: 'input',
+        message: 'Provide a short description explaining the what, why, and how of your project.',
+        name: 'description',
+    },
+    {
+        type: 'list',
+        message: 'Which license does your project use?',
+        choices: ['Apache-2.0', 'MIT', 'none'],
+        name: 'license',
+    },
+    {
+        type: 'input',
+        message: 'Please list your collaborators, if any.',
+        name: 'credits',
+    },
+    {
+        type: 'input',
+        message: 'Please enter your email.',
+        name: 'email',
+    },
+    {
+        type: 'input',
+        message: 'What is your GitHub username?',
+        name: 'github',
+    },
+    {
+        type: 'input',
+        message: 'Please provide clear instructions for use.',
+        name: 'usage',
+    }
 ];
 
 
