@@ -5,6 +5,13 @@ function questionEmail(email) {
   return ''
 };
 
+function renderGithub(github) {
+  if (github !== ''){
+    return `- [www.github/${github}](#http://github.com/${github})`
+  };
+  return ''
+}
+
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
@@ -36,31 +43,31 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 //whats a markdown
 function generateMarkdown(data) {
-  return `# ${data.title}
-    ${renderLicenseBadge(data.license)}
+  return `
+  # ${data.title}
+  ${renderLicenseBadge(data.license)}
 
-    ## Description\n
-    ${data.description}
+  ## Description\n
+  ${data.description}
 
-    ## Table of Contents
+  ## Table of Contents
       
-    - [Usage](#usage)
-    - [Credits](#credits)
-    ${renderLicenseLink(data.license)}
-    - [Questions](#questions)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  ${renderLicenseLink(data.license)}
+  - [Questions](#questions)
 
-    ## Usage\n
-    ${data.usage}
+  ## Usage\n
+  ${data.usage}
 
-    ## Credits\n
-    ${data.credits}
+  ## Credits\n
+  ${data.credits}
 
-    ${renderLicenseSection(data.license)}
+  ${renderLicenseSection(data.license)}
 
-    ## Questions\n
-    ${questionEmail(data.email)}\n
-    You can check out more of my work at - [www.github/${data.github}](#http://github.com/${data.github})
-`
+  ## Questions\n
+  ${questionEmail(data.email)}\n
+  You can check out more of my work at ${renderGithub(data.github)}`
 };
 
 
