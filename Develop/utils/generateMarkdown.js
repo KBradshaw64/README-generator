@@ -7,7 +7,7 @@ function questionEmail(email) {
 
 function renderGithub(github) {
   if (github !== ''){
-    return `- [www.github/${github}](#http://github.com/${github})`
+    return `- [GitHub](#https://github.com/${github})`
   };
   return ''
 }
@@ -67,7 +67,7 @@ function generateMarkdown(data) {
 
   ## Questions\n
   ${questionEmail(data.email)}\n
-  You can check out more of my work at ${renderGithub(data.github)}`
+  You can check out more of my work on my ${renderGithub(data.github)} profile.`
 };
 
 
