@@ -19,7 +19,7 @@
 
   ## Credits
 
-  This project was made with the assistance of my tutor Megan Meyers. I may have been able to complete the project with similar functionality but she made the code much cleaner and easier to understand.
+  This project was made with the assistance of my tutor Megan Meyers. I may have been able to complete the project with similar functionality but she made the code much cleaner and easier to understand. She specifically helped me with writing the function format that says !== '' - so if the response isn't blank then print x, otherwise give an empty string. It allowed for much more concise coding than I would have originally written.
 
   ## License
 
