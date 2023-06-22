@@ -4,7 +4,7 @@
 
   ## Description
 
-  This project is deigned to help streamline the creation of a README file based on user input. The framework may not provide all the details for every project but it will get you started and save time/effort. It was also a great way to familiarize myself with the basics of node.js and inquirer.
+  This command-line application is designed to generate a README.md file based on user input. It may not cover all needs for every project, but it will save time laying the framework. This was an excellent excersize for getting to som eof the node.js and inquirer basics.
 
   ## Table of Contents
       
@@ -15,11 +15,11 @@
 
   ## Usage
 
-  To use, you will need to open the integrated console and run 'npm i' in order to install inquirer. From there you can run the command 'node index.js' and rewrite the created READMEfile.
+  To use please open the integrated console and run the command 'npm i'. You can then continue to rewrite the test README for other projects by running the 'node index.js' command in the command-line.
 
   ## Credits
 
-  This project was made with the assistance of my tutor Megan Myers. Without her help the application would have been much messier and have taken much longer to create! Huge thank you to her.
+  This project was made with the assistance of my tutor Megan Meyers. I may have been able to complete the project with similar functionality but she made the code much cleaner and easier to understand.
 
   ## License
 
@@ -29,4 +29,4 @@
 
   If you have any questions you can email me at bradshawkeir@gmail.com
 
-  You can check out more of my work at - [www.github/KBradshaw64](#http://github.com/KBradshaw64)
+  You can check out more of my work on my - [GitHub](#https://github.com/KBradshaw64) profile.

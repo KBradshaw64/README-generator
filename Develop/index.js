@@ -50,7 +50,7 @@ const questions = [
 function init() {
     inquirer.prompt(questions).then((response) => {
         const generatedMD = generateMarkdown(response)
-        fs.writeFile('README.md', generatedMD, (err) => err ? console.log(err) : console.log('README Created'));
+        fs.writeFile('testREADME.md', generatedMD, (err) => err ? console.log(err) : console.log('new README Created'));
     })
 };
 
