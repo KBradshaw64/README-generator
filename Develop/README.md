@@ -29,6 +29,6 @@
 
   If you have any questions you can email me at bradshawkeir@gmail.com
 
-  You can check out more of my work on my - [GitHub](#https://github.com/KBradshaw64) profile.
+  You can check out more of my work on my - [GitHub](https://github.com/KBradshaw64) profile.
 
   Here is a link to the video demonstration: https://drive.google.com/file/d/1QeZVASXUkbqpW0iVnPW9NLuobZJuN8Kk/view

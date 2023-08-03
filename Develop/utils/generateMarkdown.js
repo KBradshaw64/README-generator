@@ -7,7 +7,7 @@ function questionEmail(email) {
 
 function renderGithub(github) {
   if (github !== ''){
-    return `[GitHub](#https://github.com/${github})`
+    return `[GitHub](https://github.com/${github})`
   };
   return ''
 }
